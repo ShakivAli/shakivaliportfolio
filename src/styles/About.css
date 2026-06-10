@@ -1,0 +1,27 @@
+.aboutWrapper {
+    background-color: var(--primary-color);
+    padding-left: 10vw;
+    height: 100vh;
+}
+
+.aboutWrapper h1 {
+    margin: 0;
+    color: var(--text-primary-color);
+}
+
+.aboutContent p {
+    color: var(--text-secondary-color);
+    width: 50vw;
+    line-height: var(--primary-line-height);
+}
+
+.aboutContent .resume a{
+    color: var(--about-link-color);
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .aboutContent p {
+        width: 80vw;
+    }
+}
