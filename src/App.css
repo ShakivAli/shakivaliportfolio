@@ -1,38 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #0a192f;
+    --text-primary-color: white;
+    --text-secondary-color: rgb(211, 209, 209);
+    --text-hover-color: rgb(100, 239, 100);
+    --icon-hover-color: rgb(100, 239, 100);
+    --primary-font-family: "Nunito Sans", sans-serif;
+    --primary-border-color: rgb(211, 209, 209);
+    --primary-border-width: 0.1px solid;
+    --primary-line-height: 4vh;
+    --nav-padding-x: 3em;
+    --nav-padding-y: 1em;
+    --nav-font-size: 1rem;
+    --nav-icon-size: 1.3rem;
+    --nav-font-weight: bold;
+    --home-font-size-1: 3rem;
+    --home-font-size-2: 1rem;
+    --home-font-weight: bold;
+    --home-span-color: rgb(100,239,100);
+    --about-link-color: rgb(100,239,100);
+    --experience-span-color: rgb(100,239,100);
+    --projects-box-width: 20vw;
+    --projects-box-height: 100%;
+    --projects-box-primary-color: #112240;
+    --projects-span-color: rgb(100,239,100);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  box-sizing: border-box;
+  font-family: var(--primary-font-family);
 }
