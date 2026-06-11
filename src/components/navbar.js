@@ -24,8 +24,8 @@ const Navbar = () => {
                 </div>
                 <div className='links'>
                     <a href='mailto:shakivaliamir123@gmail.com'><MdEmail/></a>
-                    <a href='https://www.linkedin.com/in/shakiv-ali-b16b30205/' target='_blank'><FaLinkedin/></a>
-                    <a href='https://github.com/ShakivAli' target='_blank'><FaGithub/></a>
+                    <a href='https://www.linkedin.com/in/shakiv-ali-b16b30205/' target='_blank' rel="noreferrer"><FaLinkedin/></a>
+                    <a href='https://github.com/ShakivAli' target='_blank' rel="noreferrer"><FaGithub/></a>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@ const Projects = () => {
                     <p className="projectHeading">Doubtify</p>
                     <p className="description">Time Study Matching Platform</p>
                     <p className="techStack">ReactJS, Tailwind CSS, NodeJS, ExpressJS, Socket.io</p>
-                    <a href="https://doubtify-three.vercel.app/" target="_blank">Demo</a>
+                    <a href="https://doubtify-three.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
                 </div>
                 <div className="project">
                     <p className="projectHeading">proWork</p>
@@ -28,13 +28,13 @@ const Projects = () => {
                     <p className="projectHeading">Dreamy Web</p>
                     <p className="description">Social Content Platform</p>
                     <p className="techStack">ReactJS, NodeJS, MongoDB, ExpressJS, CSS</p>
-                    <a href="https://dream-frontend-black.vercel.app/" target="_blank">Demo</a>
+                    <a href="https://dream-frontend-black.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
                 </div>
                 <div className="project">
                     <p className="projectHeading">WebScrapy</p>
                     <p className="description">Django-Based Data Aggregation System</p>
                     <p className="techStack">HTML, CSS, JS, Django, Selenium, BeautifulSoup</p>
-                    <a href="https://github.com/ShakivAli/scraper" target="_blank">Demo</a>
+                    <a href="https://github.com/ShakivAli/scraper" target="_blank" rel="noreferrer">Demo</a>
                 </div>
             </motion.div>
             <motion.p 
@@ -44,7 +44,7 @@ const Projects = () => {
                 viewport={{once: true}}
                 className="more"
             >
-                Check more on <a href="https://github.com/ShakivAli" target="_blank">github</a>
+                Check more on <a href="https://github.com/ShakivAli" target="_blank" rel="noreferrer">github</a>
             </motion.p>
         </div>
     );
