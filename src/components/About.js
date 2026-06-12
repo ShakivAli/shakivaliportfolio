@@ -25,7 +25,7 @@ const About = () => {
                     viewport={{once: true}}
                     className="resume"
                 >
-                    Know more about the things I worked upon, check my <a href="/shakivResume.pdf" download>resume</a>
+                    Know more about the things I worked upon, check my <a href="/ShakivResume.pdf" download>resume</a>
                 </motion.p>
             </div>
         </div>
